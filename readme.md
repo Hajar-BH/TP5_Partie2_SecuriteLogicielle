@@ -24,7 +24,7 @@ La Partie 2 s’appuie directement sur le travail réalisé en **Partie 1**, dan
 
 ```
 TP5_2/
-├── apktool_exo4/              # Exercice 4 — manipulation manuelle Smali
+├── apktool_exo4/              (Exercice 4 — manipulation manuelle Smali)
 │   ├── apktool.jar
 │   ├── apksigner.sh
 │   ├── app-binary.apk
@@ -32,7 +32,7 @@ TP5_2/
 │   ├── app-binary-modified.apk
 │   └── mascot-decompiled/
 │
-├── binary-shielder-main/      # Exercice 5 — automatisation TypeScript
+├── binary-shielder-main/      (Exercice 5 — automatisation TypeScript)
 │   ├── apktool-out/
 |   ├── src/
 │   ├── index.ts
