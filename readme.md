@@ -1,7 +1,7 @@
 # README — Partie 2 : Binarisation et injection Smali
 
 **Module :** HAI913I - Évolution et restructuration des logiciels
-**Réalisé par :** BOUMEZGANE Hajar - 22414267
+**Réalisé par :** BOUMEZGANE Hajar 
 
 ## Présentation générale
 
