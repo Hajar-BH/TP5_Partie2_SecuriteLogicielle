@@ -1,7 +1,5 @@
 # README — Partie 2 : Binarisation et injection Smali
 
-**Module :** HAI913I - Évolution et restructuration des logiciels
-
 **Réalisé par :** BOUMEZGANE Hajar 
 
 ## Présentation générale
@@ -25,7 +23,7 @@ La Partie 2 s’appuie directement sur le travail réalisé en **Partie 1**, dan
 
 ```
 TP5_2/
-├── apktool_exo4/              (Exercice 4 — manipulation manuelle Smali)
+├── apktool/              (Exercice 4 — manipulation manuelle Smali)
 │   ├── apktool.jar
 │   ├── apksigner.sh
 │   ├── app-binary.apk
@@ -65,7 +63,7 @@ TP5_2/
 
 ### Étape 2 — Décompilation de l’APK Mascot
 
-Dans le dossier `apktool_exo4` :
+Dans le dossier `apktool` :
 
 ```bash
 java -jar apktool.jar d app-debug.apk -o mascot-decompiled
@@ -150,7 +148,7 @@ bash apksigner.sh app-binary-modified.apk
 3. Installer l’APK :
 
    ```bash
-   .\adb.exe install -r C:\Users\...\apktool_exo4\app-binary-modified.apk
+   .\adb.exe install -r C:\Users\...\apktool\app-binary-modified.apk
    ```
 ## Résultat attendu :
 L’application se lance puis **se ferme immédiatement**, ce qui confirme que les détecteurs fonctionnent (émulateur détecté).
@@ -171,7 +169,7 @@ npm run generate-parser
 ### Lancement du script
 
 ```bash
-npm start -- ../apktool_exo4/app-binary.apk
+npm start -- ../apktool/app-binary.apk
 ```
 
 ## Fonctionnement du script :
